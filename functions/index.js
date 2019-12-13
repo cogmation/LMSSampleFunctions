@@ -2,7 +2,7 @@
 const functions = require('firebase-functions');
 const request = require('request');
 
-const lmsID = "-LrtYiM1kNw7CueH8dZR";// ID of Cogmation Testing LMS, your ID will be provided by Cogmation.
+const lmsID = "-LvwY7cngldeWgccuhCx";// ID of Cogmation Testing LMS, your ID will be provided by Cogmation.
 
 // When a new user is created, ensure VRT system has user as well.
 exports.addUserToVRT = functions.auth.user().onCreate((user) => {
