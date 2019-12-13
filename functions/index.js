@@ -2,6 +2,9 @@
 const functions = require('firebase-functions');
 const request = require('request');
 
+const addVRTUserURL = "addUserFromLMS";
+//const functionsHost = "https://us-central1-virtualroboticstoolkit-9a9cb.cloudfunctions.net"; //Production Project
+const functionsHost = "https://us-central1-oauthtest-61ef6.cloudfunctions.net/"; //Testing Project
 const lmsID = "-LvwY7cngldeWgccuhCx";// ID of Cogmation Testing LMS, your ID will be provided by Cogmation.
 
 // When a new user is created, ensure VRT system has user as well.
